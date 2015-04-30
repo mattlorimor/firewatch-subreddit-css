@@ -1,5 +1,5 @@
-# firewatch-subreddit-css
-This is a repository where the CSS for [/r/firewatch](https://reddit.com/r/firewatch) can be stored.
+# [/r/firewatch](reddit.com/r/firewatch) subreddit CSS
+This is a repository where the CSS for /r/firewatch can be stored. I do all my testing in [/r/firewatch_css_testing](reddit.com/r/firewatch_css_testing).
 
 If you find problems with the CSS, feel free to sumbit a pull request or [create an issue](https://github.com/mattlorimor/firewatch-subreddit-css/issues/new).
 
