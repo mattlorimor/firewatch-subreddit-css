@@ -29,7 +29,7 @@
 
 		body {
 			overflow-x: hidden;
-			background-color: #eeeeee;
+			background-color: rgba(45,17,43,1);
 			min-width: 420px;
 		}
 			
@@ -107,7 +107,8 @@
 
 
 				#sr-header-area {
-					background-color: rgba(0,0,0,0.05);
+					background-color: rgba(45,17,43,1);
+                                        color: #c9293e;
 					border: 0px solid;
 					transition: all 0.15s ease;
 					height: 24px;
@@ -121,7 +122,7 @@
 
 					#sr-header-area .sr-bar a, #sr-more-link, #sr-header-area .separator, #sr-header-area .dropdown.srdrop .selected {
 						background-color: transparent;
-						color: rgba(255,255,255,0.6);
+						color: rgba(255,109,63,1);
 						transition: all 0.15s ease;
 					}
 
@@ -204,15 +205,18 @@
 			 			font-weight: bold;
 			 			position: relative;
 			 			top: 3px;
-			 			font-family: arial;
+			 			font-family: 'Verlag A', 'Verlag B', "Verlag";
 			 			margin: 0 4px;
 			 			vertical-align: top;
-			 			transition: background-color 0.25s ease;
+			 			border-color: rgba(0,0,0,0.2);
+			 			border-radius: 5px;
+			 			transition: background-color 0.25s ease, border-color 0.25s ease;
 			 		}
 
 			 			#header .pagename a:hover {
 			 				text-decoration: none;
-			 				background-color: rgba(0,0,0,0.08);
+			 				background-color: rgba(0,0,0,0.2);
+			 				border-bottom: 2px solid rgb(255,88,61)
 			 			}
 
 			 			#header .pagename a:before {
@@ -241,13 +245,14 @@
 							padding: 16px 16px;
 							background-color: transparent;
 							border: 0px;
-							border-radius: 0px;
+							border-color: rgba(0,0,0,0.2);
+							border-radius: 5px;
 							color: rgba(255,255,255,0.6);
 							text-transform: uppercase;
 							font-weight: normal;
 							font-size: 14px;
-							font-family: Arial, sans-serif;
-							transition: color 0.25s ease, background-color 0.25s ease;
+							font-family: 'Verlag A', 'Verlag B', "Verlag";
+							transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 						}
 
 							/* IF Headerimg is though */
@@ -260,13 +265,14 @@
 							#header .tabmenu li a:hover {
 								color: rgba(255,255,255,1);
 								background-color: rgba(0,0,0,0.08);
+								border-bottom: 2px solid rgb(255,88,61)
 							}
 
 							#header .tabmenu li.selected a {
-								padding: 16px 16px 14px 16px;
+								/*padding: 16px 16px 14px 16px;*/
 								background-color: transparent;
 								border: 0px;
-								border-bottom: 2px solid #fff;
+								border-bottom: 2px solid rgb(255,88,61);
 								color: rgba(255,255,255,1);
 								font-weight: bold;
 							}
@@ -289,9 +295,10 @@
 			.side {
 				margin: 200px 16px 0px 0px;
 				padding: 6px 16px;
-				background-color: #fff;
+				background-color: rgb(45,17,43);
 				border-radius: 2px;
-				box-shadow: 0px 1px 5px rgba(0,0,0,0.16);
+				box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+				color: rgb(255,88,63);
 			}
 
 				/* Objects from top to bottom */
@@ -367,7 +374,7 @@
 								content: "You have new messages!";
 								text-indent: 0px;
 								font-size: 14px;
-								font-family: arial, sans-serif;
+								font-family: 'Verlag A', 'Verlag B', "Verlag";
 								line-height: 1;
 								-webkit-transform:translateY(112px);
 								transform:translateY(112px);
@@ -424,7 +431,7 @@
 
 						text-transform: none;
 						font-size: 16px;
-						font-family: arial,sans-serif;
+						font-family: 'Verlag A', 'Verlag B', "Verlag";
 						position: absolute;
 						width: 300px;
 						text-align: center;
@@ -465,21 +472,21 @@
 
 							#search input[type="text"]:-moz-placeholder::after {
 							    font-size: 14px;
-							    content: "Search..";
+							    content: "Scan the horizon...";
 							    position: relative;
 							    top: 1px;
 							}
 
 							#search input[type="text"]::-webkit-input-placeholder::after {
 							    font-size: 14px;
-							    content: "Search..";
+							    content: "Scan the horizon...";
 							    position: relative;
 							    top: 1px;
 							}
 
 							#search input[type="text"]:-ms-input-placeholder::after {
 							    font-size: 14px;
-							    content: "Search..";
+							    content: "Scan the horizon...";
 							    position: relative;
 							    top: 1px;
 							}
@@ -521,6 +528,7 @@
 						padding-right: 0px;
 						height: 57px;
 						line-height: 45px;
+						font-family: 'Verlag A', 'Verlag B', "Verlag";
 					}
 
 						#search #searchexpando label {
@@ -553,7 +561,7 @@
 					text-align: left;
 					padding: 0px 16px;
 					transition: all 0.25s ease;
-					font-family: verdana, arial, sans-serif;
+					font-family: 'Verlag A', 'Verlag B', "Verlag";
 				}	
 
 					.morelink:hover {
@@ -638,6 +646,10 @@
 					margin-bottom: 6px;
 				}
 
+				.titlebox h1 a {
+					color: rgb(255,88,63);
+				}
+
 
 				.titlebox span.subscribers, .titlebox .users-online, .titlebox .number {
 					color: #999999;
@@ -650,10 +662,10 @@
 					div.titlebox span.word {display: none;}
 					.titlebox .users-online {display: inline;}
 					.titlebox .users-online:before {display: none;}
-					div.titlebox span.number:after {content: " readers,";}
+					div.titlebox span.number:after {content: " volunteer lookouts,";}
 					.titlebox .users-online .number {font-style: italic;}
 					.titlebox .users-online .number:before {content: "";}
-					.titlebox .users-online .number:after {content: " here";}
+					.titlebox .users-online .number:after {content: " on duty";}
 					.titlelebox .word {display: none;}
 					.titlebox .users-online, .titlebox .number {cursor: text;}	
 
@@ -740,7 +752,7 @@
 						right: -26px;
 						margin-top: 16px;
 						padding: 12px;
-						background-color: rgba(79, 77, 192, 0);
+						background-color: rgba(255, 88, 61, 0);
 						border: none;
 						border-radius: 2px;
 						color: rgba(255, 255, 255, 0);
@@ -754,17 +766,17 @@
 						box-shadow: 0px 0px 0px rgba(0,0,0,0.00);
 					}
 
-						.titlebox .fancy-toggle-button .add:after {content: "Subscribe!";}
+						.titlebox .fancy-toggle-button .add:after {content: "Volunteer!";}
 						.titlebox .fancy-toggle-button .add:hover:after {
 							visibility: visible;
 							margin-top: 40px;
 							color: #fff;
-							background-color: #516AE8;
+							background-color: rgb(255,88,61);
 							box-shadow: 0px 1px 5px rgba(0,0,0,0.24);
 						}
 
 
-						.titlebox .fancy-toggle-button .remove:after {content: "Unsubscribe";}
+						.titlebox .fancy-toggle-button .remove:after {content: "Let it burn...";}
 						.titlebox .fancy-toggle-button .remove:hover:after {
 							visibility: visible;
 							color: #4D5763;
@@ -785,7 +797,7 @@
 				.side .md .-blocks, .side .md .-lists, .side .md pre, .side .md blockquote, .side .md table, .side .md p, .side .md ul, .side .md ol {
 					color: #4D5763;
 					font-size: 13px;
-					font-family: Arial, sans-serif;
+					font-family: 'Verlag A', 'Verlag B', "Verlag";
 					line-height: 1.3333333333333333em;
 				}
 
@@ -804,7 +816,7 @@
 						width: 100%;
 						border-radius: 2px;
 						background-color: #516AE8;
-						font-family: verdana,arial,sans-serif;
+						font-family: 'Verlag A', 'Verlag B', "Verlag";
 						transition: all 0.25s ease;
 						color: #fff;
 						box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
@@ -923,14 +935,15 @@
 
 				.sitetable {
 					margin-right: 316px;
-					box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+					box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
 					position: relative;
 				}
 
 					.link {
 						margin: 0px;
 						padding: 0;
-						background-color: #fff;
+						/*background-color: #fff;*/
+						background-color: rgb(45, 17, 43);
 					}
 
 						/* Objects on the link from left to right */
@@ -1056,7 +1069,7 @@
 							font-style: normal;
 							font-variant: normal;
 							font-size: 13px;
-							font-family: Arial, sans-serif;
+							font-family: 'Verlag A', 'Verlag B', "Verlag";
 							cursor: default;
 							vertical-align: middle;
 							position: relative;
@@ -1091,7 +1104,7 @@
 						.link .title {
 							margin: -2px 0px 0px 0px;
 							font-size: 18px;
-							font-family: Arial, sans-serif;
+							font-family: 'Verlag A', 'Verlag B', "Verlag";
 							overflow: visible;
 							transition: all 0.15s ease;
 						}
@@ -1100,8 +1113,8 @@
 
 							.link .entry {
 								padding: 15px 32px 14px 0px;
-								border-bottom: 1px solid #f2f2f2;
 								margin-left: 0;
+								border-bottom: 1px solid rgb(150,88,61);
 							}
 
 							/*Unvisited*/	.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {color:#4F8EF7;}
@@ -1189,7 +1202,7 @@
 							border: 0px solid;
 							border-top: 1px solid #F7F7F7;
 							border-radius: 0px;
-							color: #4D5763;
+							color: rgb(255, 88, 61);
 						}
 
 
@@ -1198,7 +1211,7 @@
 							margin-top: 4px;
 							color: #b3b3b3;
 							font-size: 12px;
-							font-family: arial, sans-serif;
+							font-family: 'Verlag A', 'Verlag B', "Verlag";
 							transition: all 0.15s ease;
 						}
 
@@ -1249,7 +1262,7 @@
 								color: #b3b3b3;
 								font-weight: normal;
 								font-size: 13px;
-								font-family: Arial, sans-serif;
+								font-family: 'Verlag A', 'Verlag B', "Verlag";
 								transition: all 0.15s ease;
 							}
 			
@@ -1330,7 +1343,7 @@
 										color: #b3b3b3;
 										font-weight: normal;
 										font-size: 13px;
-										font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+										font-family: 'Verlag A', 'Verlag B', "Verlag";
 										transition: all 0.15s ease;
 									}
 
@@ -1601,7 +1614,8 @@
 							div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
 								background-color: transparent !important;
 								padding-left: 8px !important;
-								border-left: 2px solid #4F8EF7;
+								border-left: 2px solid rgb(255,88,61);
+								border-bottom: 1px solid rgb(255, 88, 61);
 							}
 
 								div.commentarea div.RES-keyNav-activeElement .md {
@@ -1682,6 +1696,8 @@
 					.top-page .content .menuarea .drop-choices.lightdrop {
 					display:inline;
 					visibility:visible;
+					background-color: rgb(255,88,63);
+					font-family: 'Verlag A', 'Verlag B', "Verlag";
 					}
 
 					.top-page .menuarea .spacer {overflow: visible;}
@@ -1709,7 +1725,7 @@
 							padding: 10px 16px 10px 16px;
 							background-color: #5A72EE;
 							overflow: visible;
-							color: #FFF;
+							color: rgb(45,17,43);
 						}
 
 						.top-page .content .menuarea .drop-choices.lightdrop {
@@ -1725,12 +1741,12 @@
 
 							.top-page .content .menuarea .drop-choices.lightdrop a.choice {
 								padding: 10px;
-								color: #4D5763;
+								color: rgb(45,17,43);
 								transition: all 0.25s ease;
 							}
 
 								.top-page .content .menuarea .drop-choices.lightdrop a.choice[href*="/?t=all"] {border-right: 0px solid;}
-								.top-page .content .menuarea .drop-choices.lightdrop a.choice:hover {background-color: #F5F8F9;}
+								.top-page .content .menuarea .drop-choices.lightdrop a.choice:hover {background-color: rgba(0,0,0,.2);}
 
 								.top-page .content .menuarea .drop-choices.lightdrop a.choice.selected {
 									background-color: #4f8ef7;
@@ -1989,7 +2005,7 @@
 								.comment .entry .tagline {
 									color: #b3b3b3;
 									font-size: 12px;
-									font-family: Arial, sans-serif;
+									font-family: 'Verlag A', 'Verlag B', "Verlag";
 								}
 
 									.comment .expand {
@@ -2356,7 +2372,7 @@
 					border-radius: 2px;
 					box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
 					font-size: 16px;
-					font-family: arial, sans-serif;
+					font-family: 'Verlag A', 'Verlag B', "Verlag";
 					text-transform: capitalize;
 					margin: 0;
 				}
@@ -2522,7 +2538,7 @@
 					border: none;
 					border-radius: 0px;
 					font-size: 12px;
-					font-family: arial, sans-serif;
+					font-family: 'Verlag A', 'Verlag B', "Verlag";
 					font-weight: normal;
 					background-color: transparent;
 					color: #B3B3B3;
@@ -2544,6 +2560,10 @@
 
 				.footer {border: 0px solid;}
 
+				.footer-parent{
+					background: url(%%forest-transparent%%) no-repeat center;
+				}
+
 				/* Bunch of RES (Reddit Enhancement Suite) Fixes */
 				.res .link .tagline a.voteWeight {background-color: transparent !important;}
 				.res .thing .tagline .author.moderator {background-color: #65B354 !important;padding: 1px 4px;border-radius: 1px;}
@@ -2551,6 +2571,7 @@
 				.res .srSep {color: rgba(255,255,255,0.45);}
 				.res #RESShortcutsViewport, .res #RESShortcutsEditContainer {margin-right: 312px;}
 					.res #RESShortcutsEditContainer, #RESShortcutsSort, #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+						display: none !important;
 						background-color: transparent!important;
 						color: rgba(255, 255, 255, 0.45)!important;
 						top: 1px !important;
@@ -2600,7 +2621,7 @@
 					background-color: rgba(0, 0, 0, 0);
 					line-height: inherit;
 					font-size: 11px;
-					font-family: verdana,arial,sans-serif;
+					font-family: 'Verlag A', 'Verlag B', "Verlag";
 					box-shadow: none;
 					font-weight: normal;
 					color: #4D5763;
@@ -2697,43 +2718,43 @@
 					}
 
 						#RESMainGearOverlay {
-							background-color: #516ae8;
+							background-color: rgb(255,88,61);
 							top: 0px !important;
 							height: 26px !important;
 							border-radius: 0px !important;
 						}
 
 					.RESDropdownList {
-						border-color: #4258ca;
+						border-color: rgb(180,88,61);
 						box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
 						margin-top: 4px;
 						margin-right: 8px;
 					}
 
 						.RESDropdownList li {
-							background-color: #516ae8;
-							color: #fff;
-							border-color: #4258ca;
+							background-color: rgb(255,88,61);
+							color: rgb(45,17,43);
+							border-color: rgb(180,88,61);
 							transition: all 0.15s ease;
 						}
 
 							.RESDropdownList li:first-letter {text-transform: capitalize;}
 
-							.RESDropdownList a, .RESDropdownList a:visited { color: #fff;}
+							.RESDropdownList a, .RESDropdownList a:visited { color: rgb(45,17,43);}
 
 								.RESDropdownList li:hover, .RESDropdownList li a:hover {
-									color: #fff;
-									background-color: #667df0;
+									color: rgb(45,17,43);
+									background-color: rgb(220,88,61);
 								}
 
 							#RESSearchMenuItem {
-								border: 1px solid #4258ca;
+								border: 1px solid rgb(180,88,61);
 								border-radius: 1px;
-								background-color: #667df0;
+								background-color: rgb(220,88,61);
 							}
 
 								#RESSearchMenuItem:hover {
-									background-color: #667df0;
+									background-color: rgb(220,88,61);
 								}
 
 							.toggleButton {
@@ -2747,8 +2768,8 @@
 									.moduleToggle:not(.enabled) .toggleOn, .toggleButton:not(.enabled) .toggleOn,
 									.moduleToggle.enabled .toggleOff, .toggleButton.enabled .toggleOff {
 										background-color: transparent;
-										color: rgba(255,255,255,0.6);
-										border: 1px solid #4258ca;
+										color: rgba(200,88,61,1);
+										border: 1px solid rgb(180,88,61);
 										transition: all 0.15s ease;
 										border-radius: 2px;
 									}
@@ -2756,9 +2777,9 @@
 									.moduleToggle.enabled .toggleOn, .toggleButton.enabled .toggleOn,
 									.moduleToggle:not(.enabled) .toggleOff, .toggleButton:not(.enabled) .toggleOff {
 										background-color: #fff;
-										color: #516AE8;
+										color: rgba(200,88,61,1);
 										font-weight: bolder;
-										border: 1px solid #fff;
+										border: 1px solid rgb(180,88,61);
 										transition: all 0.15s ease;
 										border-radius: 2px;
 									}
@@ -2996,3 +3017,55 @@
 
 
 ==================================================================================================================================*/
+
+    /* --- Addon: Header Background Image --- */
+    .content:before {height: 416px; background: #393D41 url(%%headerimg%%) fixed no-repeat 33% 0}
+        /*@media only screen and (min-width : 1921px) {.content:before {background-size: cover;}}*/
+    
+        	/* Add or subtract THE SAME AMOUNT ON EACH OF THESE */
+    .content                        {margin-top:        342px;} 
+    .side                           {margin-top:        446px;}	
+    .search-page .side              {margin-top:        394px;}	
+    .comments-page .side            {margin-top:        558px;}
+    .res .comments-page .side 		{margin-top: 		572px;}
+    .comments-page .side .linkinfo  {margin-top:        246px;}	
+    #search, .search-page .morelink {top:               342px;}	
+    .morelink                       {top:               394px;}
+    #header-bottom-left             {top:               278px;}
+    
+    #header .tabmenu li a, .pagename a {text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);}
+    #header .tabmenu li a:hover, .pagename a:hover {background-color: rgba(0, 0, 0, 0.2);}
+    #header .tabmenu li.selected a:hover, .pagename a:hover {background-color: rgba(0, 0, 0, 0.2);}
+    
+    /* --- End Addon --- */
+
+    /* --- Addon: Header Color (Primary Color) --- */
+    .content:before {background-color: #383947}
+    
+    /* --- Addon: Button color (Secondary Color) --- */
+    .morelink, .titlebox .fancy-toggle-button .add, .morelink:after, .content .infobar,
+    .submit-page #newlink.submit.content .tabmenu.formtab .selected a, .submit-page .infobar, 
+    .submit-page #newlink.submit.content .btn, .drop-choices a.choice:hover, .linkflairlabel, .fancy-toggle-button .remove:active
+    .expando-button:hover, .top-page .content .menuarea .dropdown.lightdrop .selected, .expando-button:hover, .side .titlebox .md h3 a,
+    .res div.RES-keyNav-activeElement, .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed, .btn, button {
+    	background-color: rgb(255,88,61);
+    }
+    
+        /* Hover color = 10% white overlay color */
+        .morelink:hover, .submit-page #newlink.submit.content .tabmenu.formtab .selected a:hover, .btn:hover, button:hover,
+        .side .titlebox .md h3 a:hover, .titlebox .fancy-toggle-button .add:hover, .titlebox .fancy-toggle-button .add:hover:after
+         {background-color: #f85d5d;}
+    
+        /* Active color = 10% black overlay color */
+        .morelink:active, .side .titlebox .md h3 a:active, .btn:active, button:active {background-color: #bd3b3b;}
+    
+    /* --- Addon: Link Color (Tertiary Color) - This color should be either similiar to the primary color, 
+    or to the secondary color. Else the page will become too busy.-- */
+    a, .link .entry .buttons li a.comments, .md a, .titlebox .tagline a.flairselectbtn, 
+    .thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title, 
+    body .content .sitetable .link .title a:hover, .link .domain a:hover, .link .entry .buttons li a:hover, 
+    .link .entry .buttons li a.flairselectbtn, .comment .flat-list li a[onclick*="reply"], 
+    .comment .flat-list li a:hover, .tagline .submitter, .tagline .submitter, .side:after, 
+    .usertext .bottom-area a.reddiquette, .side .titlebox .md h6 a, .link .entry .tagline a:hover, .comment .author:hover
+     {color: #rgb(255,88,61);}
+    /* --- End Addon --- */
