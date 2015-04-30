@@ -1,6 +1,8 @@
 # firewatch-subreddit-css
 This is a repository where the CSS for [/r/firewatch](https://reddit.com/r/firewatch) can be stored.
 
+If you find problems with the CSS, feel free to sumbit a pull request or [create an issue](https://github.com/mattlorimor/firewatch-subreddit-css/issues/new).
+
 Thanks!
 ===============
 * [Campo Santo](http://www.camposanto.com/) for allowing the use of their art assets for this.
