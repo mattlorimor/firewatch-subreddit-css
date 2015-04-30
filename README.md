@@ -13,4 +13,4 @@ Disclaimer-y Things
 ===============
 [Firewatch](http://www.firewatchgame.com/) is a trademark of [Campo Santo](http://www.camposanto.com/).
 
-Unless otherwise specified, art assets used were created and are owned by Campo Santo.
+[Unless otherwise specified](ARTCREDIT.md), art assets used were created and are owned by Campo Santo.
