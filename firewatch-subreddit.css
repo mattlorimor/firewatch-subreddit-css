@@ -3069,3 +3069,59 @@
     .usertext .bottom-area a.reddiquette, .side .titlebox .md h6 a, .link .entry .tagline a:hover, .comment .author:hover
      {color: #rgb(255,88,61);}
     /* --- End Addon --- */
+
+/*=== LINK SPOILER FLAIR ===*/
+/*To use the following code, add a flair with the title "Spoiler" and CSS class "spoiler" to the subreddit link flair settings*/
+
+.linkflair-spoiler .linkflairlabel {
+    background: #ff583d;
+    color: white;
+}
+
+.linkflair-spoiler a.title {
+    background: #ff583d;
+    color: #ff583d !important;
+    border-radius: 3px !important;
+}
+
+.linkflair-spoiler a.title:hover {
+    background: transparent;
+}
+
+.linkflair-spoiler .thumbnail {
+    display: none !important;
+}
+
+.linkflair-spoiler a.title:visited {
+    background: #ff583d;
+    color: #ff583d !important;
+}
+
+.linkflairlabel, .flair {
+    max-width: 100%;
+}
+
+/*=== TEXT SPOILER ===*/
+a[href$="/spoiler"] {
+    background: #ff583d !important;
+    color: #ff583d !important;
+    border-radius: 2px !important;
+}
+
+a[href$="/spoiler"]:hover {
+    color: #FFF !important;
+}
+
+/*=== MODERATOR FLAIR ===*/
+.author[href$="vikingshotgun"]:before, .author[href$="derekx1000"]:before, .author[href$="mlor"]:before {
+    background: #ff583d;
+    color: white;
+    padding: 1px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.author[href$="vikingshotgun"]:before, .author[href$="derekx1000"]:before, .author[href$="mlor"]:before {
+    content: "Mod";
+    margin-right: .3em;
+}
