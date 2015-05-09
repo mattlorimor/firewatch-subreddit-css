@@ -3113,7 +3113,7 @@ a[href$="/spoiler"]:hover {
 }
 
 /*=== MODERATOR FLAIR ===*/
-.author[href$="vikingshotgun"]:before, .author[href$="derekx1000"]:before, .author[href$="mlor"]:before {
+.author[href$="barker_1999"]:before, .author[href$="vikingshotgun"]:before, .author[href$="derekx1000"]:before, .author[href$="mlor"]:before, .author[href$="itsfutur"]:before, .author[href$="Drishtant"]:before {
     background: #ff583d;
     color: white;
     padding: 1px;
@@ -3121,7 +3121,7 @@ a[href$="/spoiler"]:hover {
     border-radius: 2px;
 }
 
-.author[href$="vikingshotgun"]:before, .author[href$="derekx1000"]:before, .author[href$="mlor"]:before {
+.author[href$="barker_1999"]:before, .author[href$="vikingshotgun"]:before, .author[href$="derekx1000"]:before, .author[href$="mlor"]:before, .author[href$="itsfutur"]:before, .author[href$="Drishtant"]:before {
     content: "Mod";
     margin-right: .3em;
 }
