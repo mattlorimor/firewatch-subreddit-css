@@ -202,7 +202,7 @@ a.random.choice {
     font-weight: bold;
     position: relative;
     top: 3px;
-    font-family: Helvetica;
+    font-family: Arial;
     margin: 0 4px;
     vertical-align: top;
     border-color: rgba(0,0,0,0.2);
@@ -248,7 +248,7 @@ a.random.choice {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 14px;
-    font-family: Helvetica;
+    font-family: Arial;
     transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
 
@@ -371,7 +371,7 @@ body:not(.loggedin) #header-bottom-right {max-width: 340px;}
     content: "You have new messages!";
     text-indent: 0px;
     font-size: 14px;
-    font-family: Helvetica;
+    font-family: Arial;
     line-height: 1;
     -webkit-transform:translateY(112px);
     transform:translateY(112px);
@@ -428,7 +428,7 @@ body:not(.loggedin) #header-bottom-right {max-width: 340px;}
     
     text-transform: none;
     font-size: 16px;
-    font-family: Helvetica;
+    font-family: Arial;
     position: absolute;
     width: 300px;
     text-align: center;
@@ -525,7 +525,7 @@ body:not(.loggedin) #header-bottom-right {max-width: 340px;}
     padding-right: 0px;
     height: 57px;
     line-height: 45px;
-    font-family: Helvetica;
+    font-family: Arial;
 }
 
 #search #searchexpando label {
@@ -558,7 +558,7 @@ body:not(.loggedin) #header-bottom-right {max-width: 340px;}
     text-align: left;
     padding: 0px 16px;
     transition: all 0.25s ease;
-    font-family: Helvetica;
+    font-family: Arial;
 }
 
 .morelink:hover {
@@ -794,7 +794,7 @@ div.titlebox span.number:after {content: " volunteer lookouts,";}
 .side .md .-blocks, .side .md .-lists, .side .md pre, .side .md blockquote, .side .md table, .side .md p, .side .md ul, .side .md ol {
     color: #4D5763;
     font-size: 13px;
-    font-family: Helvetica;
+    font-family: Arial;
     line-height: 1.3333333333333333em;
 }
 
@@ -813,7 +813,7 @@ div.titlebox span.number:after {content: " volunteer lookouts,";}
     width: 100%;
     border-radius: 2px;
     background-color: #516AE8;
-    font-family: Helvetica;
+    font-family: Arial;
     transition: all 0.25s ease;
     color: #fff;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
@@ -1066,7 +1066,7 @@ body >.content .link .rank, .rank-spacer {display: none;}
     font-style: normal;
     font-variant: normal;
     font-size: 13px;
-    font-family: Helvetica;
+    font-family: Arial;
     cursor: default;
     vertical-align: middle;
     position: relative;
@@ -1101,7 +1101,7 @@ body >.content .link .rank, .rank-spacer {display: none;}
 .link .title {
     margin: -2px 0px 0px 0px;
     font-size: 18px;
-    font-family: Helvetica;
+    font-family: Arial;
     overflow: visible;
     transition: all 0.15s ease;
 }
@@ -1208,7 +1208,7 @@ body .content .sitetable .link .title a:hover {color: #4F8EF7;}
     margin-top: 4px;
     color: #b3b3b3;
     font-size: 12px;
-    font-family: Helvetica;
+    font-family: Arial;
     transition: all 0.15s ease;
 }
 
@@ -1259,7 +1259,7 @@ body .content .sitetable .link .title a:hover {color: #4F8EF7;}
     color: #b3b3b3;
     font-weight: normal;
     font-size: 13px;
-    font-family: Helvetica;
+    font-family: Arial;
     transition: all 0.15s ease;
 }
 
@@ -1340,7 +1340,7 @@ body .content .sitetable .link .title a:hover {color: #4F8EF7;}
     color: #b3b3b3;
     font-weight: normal;
     font-size: 13px;
-    font-family: Helvetica;
+    font-family: Arial;
     transition: all 0.15s ease;
 }
 
@@ -1694,7 +1694,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     display:inline;
     visibility:visible;
     background-color: rgb(255,88,63);
-    font-family: Helvetica;
+    font-family: Arial;
 }
 
 .top-page .menuarea .spacer {overflow: visible;}
@@ -2002,7 +2002,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .comment .entry .tagline {
     color: #b3b3b3;
     font-size: 12px;
-    font-family: Helvetica;
+    font-family: Arial;
 }
 
 .comment .expand {
@@ -2369,7 +2369,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     border-radius: 2px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
     font-size: 16px;
-    font-family: Helvetica;
+    font-family: Arial;
     text-transform: capitalize;
     margin: 0;
 }
@@ -2535,7 +2535,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     border: none;
     border-radius: 0px;
     font-size: 12px;
-    font-family: Helvetica;
+    font-family: Arial;
     font-weight: normal;
     background-color: transparent;
     color: #B3B3B3;
@@ -2618,7 +2618,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     background-color: rgba(0, 0, 0, 0);
     line-height: inherit;
     font-size: 11px;
-    font-family: Helvetica;
+    font-family: Arial;
     box-shadow: none;
     font-weight: normal;
     color: #4D5763;
