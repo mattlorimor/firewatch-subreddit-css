@@ -1,10 +1,9 @@
-	/*
+/*
 			Version 3.1
 			Stylesheet by Cryptonaut
 			Last modified: 26 MAR 2015
 			Details: This is a custom template made by /u/Cryptonaut. 
 			Find out more on /r/Naut.
-
 			--------------------------------------------------------------------------
 			[Changelog]
 			v1.0 - Initial Design - /r/Naut Template
@@ -19,8 +18,6 @@
 							  sizes and margins, more transitions and animations and
 							  much more. See /r/Naut for more
 			V3.1 - Update 9 - Many bugfixes and some changes for easier customization
-
-
 			-------------------------------------------------------------------------- */
 
 
@@ -205,7 +202,7 @@
 			 			font-weight: bold;
 			 			position: relative;
 			 			top: 3px;
-			 			font-family: 'Verlag A', 'Verlag B', "Verlag";
+			 			font-family: Arial;
 			 			margin: 0 4px;
 			 			vertical-align: top;
 			 			border-color: rgba(0,0,0,0.2);
@@ -251,7 +248,7 @@
 							text-transform: uppercase;
 							font-weight: normal;
 							font-size: 14px;
-							font-family: 'Verlag A', 'Verlag B', "Verlag";
+							font-family: Arial;
 							transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 						}
 
@@ -374,7 +371,7 @@
 								content: "You have new messages!";
 								text-indent: 0px;
 								font-size: 14px;
-								font-family: 'Verlag A', 'Verlag B', "Verlag";
+								font-family: Arial;
 								line-height: 1;
 								-webkit-transform:translateY(112px);
 								transform:translateY(112px);
@@ -431,7 +428,7 @@
 
 						text-transform: none;
 						font-size: 16px;
-						font-family: 'Verlag A', 'Verlag B', "Verlag";
+						font-family: Arial;
 						position: absolute;
 						width: 300px;
 						text-align: center;
@@ -528,7 +525,7 @@
 						padding-right: 0px;
 						height: 57px;
 						line-height: 45px;
-						font-family: 'Verlag A', 'Verlag B', "Verlag";
+						font-family: Arial;
 					}
 
 						#search #searchexpando label {
@@ -561,7 +558,7 @@
 					text-align: left;
 					padding: 0px 16px;
 					transition: all 0.25s ease;
-					font-family: 'Verlag A', 'Verlag B', "Verlag";
+					font-family: Arial;
 				}	
 
 					.morelink:hover {
@@ -797,7 +794,7 @@
 				.side .md .-blocks, .side .md .-lists, .side .md pre, .side .md blockquote, .side .md table, .side .md p, .side .md ul, .side .md ol {
 					color: #4D5763;
 					font-size: 13px;
-					font-family: 'Verlag A', 'Verlag B', "Verlag";
+					font-family: Arial;
 					line-height: 1.3333333333333333em;
 				}
 
@@ -816,7 +813,7 @@
 						width: 100%;
 						border-radius: 2px;
 						background-color: #516AE8;
-						font-family: 'Verlag A', 'Verlag B', "Verlag";
+						font-family: Arial;
 						transition: all 0.25s ease;
 						color: #fff;
 						box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
@@ -1069,7 +1066,7 @@
 							font-style: normal;
 							font-variant: normal;
 							font-size: 13px;
-							font-family: 'Verlag A', 'Verlag B', "Verlag";
+							font-family: Arial;
 							cursor: default;
 							vertical-align: middle;
 							position: relative;
@@ -1104,7 +1101,7 @@
 						.link .title {
 							margin: -2px 0px 0px 0px;
 							font-size: 18px;
-							font-family: 'Verlag A', 'Verlag B', "Verlag";
+							font-family: Arial;
 							overflow: visible;
 							transition: all 0.15s ease;
 						}
@@ -1211,7 +1208,7 @@
 							margin-top: 4px;
 							color: #b3b3b3;
 							font-size: 12px;
-							font-family: 'Verlag A', 'Verlag B', "Verlag";
+							font-family: Arial;
 							transition: all 0.15s ease;
 						}
 
@@ -1262,7 +1259,7 @@
 								color: #b3b3b3;
 								font-weight: normal;
 								font-size: 13px;
-								font-family: 'Verlag A', 'Verlag B', "Verlag";
+								font-family: Arial;
 								transition: all 0.15s ease;
 							}
 			
@@ -1343,7 +1340,7 @@
 										color: #b3b3b3;
 										font-weight: normal;
 										font-size: 13px;
-										font-family: 'Verlag A', 'Verlag B', "Verlag";
+										font-family: Arial;
 										transition: all 0.15s ease;
 									}
 
@@ -1697,7 +1694,7 @@
 					display:inline;
 					visibility:visible;
 					background-color: rgb(255,88,63);
-					font-family: 'Verlag A', 'Verlag B', "Verlag";
+					font-family: Arial;
 					}
 
 					.top-page .menuarea .spacer {overflow: visible;}
@@ -2005,7 +2002,7 @@
 								.comment .entry .tagline {
 									color: #b3b3b3;
 									font-size: 12px;
-									font-family: 'Verlag A', 'Verlag B', "Verlag";
+									font-family: Arial;
 								}
 
 									.comment .expand {
@@ -2372,7 +2369,7 @@
 					border-radius: 2px;
 					box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
 					font-size: 16px;
-					font-family: 'Verlag A', 'Verlag B', "Verlag";
+					font-family: Arial;
 					text-transform: capitalize;
 					margin: 0;
 				}
@@ -2538,7 +2535,7 @@
 					border: none;
 					border-radius: 0px;
 					font-size: 12px;
-					font-family: 'Verlag A', 'Verlag B', "Verlag";
+					font-family: Arial;
 					font-weight: normal;
 					background-color: transparent;
 					color: #B3B3B3;
@@ -2621,7 +2618,7 @@
 					background-color: rgba(0, 0, 0, 0);
 					line-height: inherit;
 					font-size: 11px;
-					font-family: 'Verlag A', 'Verlag B', "Verlag";
+					font-family: Arial;
 					box-shadow: none;
 					font-weight: normal;
 					color: #4D5763;
@@ -3009,13 +3006,10 @@
 			   100% {transform:scale(1.5,1.5);			-webkit-transform:scale(1.5,1.5); opacity: 0;}
 			}
 /* ===============================================================================================================================
-
 	
 										/////
 				End of the basic stylesheet - add your customizations below!	
 										/////
-
-
 ==================================================================================================================================*/
 
     /* --- Addon: Header Background Image --- */
@@ -3074,54 +3068,98 @@
 /*To use the following code, add a flair with the title "Spoiler" and CSS class "spoiler" to the subreddit link flair settings*/
 
 .linkflair-spoiler .linkflairlabel {
-    background: #ff583d;
-    color: white;
+   background: #ff583d;
+   color: white;
 }
 
 .linkflair-spoiler a.title {
-    background: #ff583d;
-    color: #ff583d !important;
-    border-radius: 3px !important;
+   background: #ff583d;
+   color: #ff583d !important;
+   border-radius: 3px !important;
 }
 
 .linkflair-spoiler a.title:hover {
-    background: transparent;
+   background: transparent;
 }
 
 .linkflair-spoiler .thumbnail {
-    display: none !important;
+   display: none !important;
 }
 
-.linkflair-spoiler a.title:visited {
-    background: #ff583d;
-    color: #ff583d !important;
+.linkflair-spoiler a.title:visited {  
+   background: #ff583d;  
+   color: #ff583d !important;
+}  
+
+.linkflairlabel, .flair { 
+    max-width: 100%; 
 }
 
-.linkflairlabel, .flair {
-    max-width: 100%;
+/*=== USER FLAIR ===*/
+.flair {
+background-color: rgba(255,255,255,.2);
+padding: 1px 3px;
+border-radius: 2px;
+color: #fff;
+font-weight: 500;
+position: relative;
+}
+
+.flair:before {
+display: none;
+}
+
+.comment .entry .tagline {
+padding-top: 1px;
+}
+
+.tagline .flair:not(.flair-official) {
+margin-left: 4px;
+}
+
+.flair-moderator {
+background-color: #ff583d;
+}
+
+.flair-developer {
+background-color: #ff583d;
 }
 
 /*=== TEXT SPOILER ===*/
-a[href$="/spoiler"] {
-    background: #ff583d !important;
-    color: #ff583d !important;
-    border-radius: 2px !important;
+a[href$="/spoiler"] {  
+   background: #ff583d !important;  
+   color: #ff583d !important;
+   border-radius: 2px !important;
+}  
+
+a[href$="/spoiler"]:hover {  
+   color: #FFF !important;  
 }
 
-a[href$="/spoiler"]:hover {
-    color: #FFF !important;
+/* ADDON: SIDEBAR IMAGE */
+
+.side:before 
+{
+  display:block;
+  position:relative;
+  width:300px;
+  margin:-6px -16px 18px;
+  border-radius:4px 4px 0 0;
+  vertical-align:bottom;text-align:center;
+  font-size:14px;
+  line-height:26px;
+  color:#fff;
+  background: url(%%rand3%%) no-repeat; /* Set rand0 - rand3 to change the sidebar image */
+  padding-top:466px; /* Height of image */
+  content:""; /* Caption */
+  background-color: #212121; /* Color behind caption */
 }
 
-/*=== MODERATOR FLAIR ===*/
-.author[href$="barker_1999"]:before, .author[href$="vikingshotgun"]:before, .author[href$="derekx1000"]:before, .author[href$="mlor"]:before, .author[href$="itsfutur"]:before, .author[href$="Drishtant"]:before {
-    background: #ff583d;
-    color: white;
-    padding: 1px;
-    display: inline-block;
-    border-radius: 2px;
-}
+/* END ADDON */
 
-.author[href$="barker_1999"]:before, .author[href$="vikingshotgun"]:before, .author[href$="derekx1000"]:before, .author[href$="mlor"]:before, .author[href$="itsfutur"]:before, .author[href$="Drishtant"]:before {
-    content: "Mod";
-    margin-right: .3em;
+/*=== (RES) DISABLE WHITE BACKGROUND ON TEXT POSTS ===*/
+
+body .usertext-body.may-blank-within.md-container, .body .commentarea .RES-keyNav-activeElement .md p, body .commentarea .RES-keyNav-activeElement .usertext-body.may-blank-within.md-container {
+    background-color: transparent!important;
+    border: none!important;
 }
